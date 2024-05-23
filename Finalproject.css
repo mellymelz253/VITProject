@@ -1,0 +1,190 @@
+/* Tasks:
+    Apply Class Styling:
+        Use the .headline class to uniformly style the headers and footers with an underline and grey text.
+        Utilize the .bulletPoints class to style list items in the main content area with square bullets and red text.
+
+    Differentiate Styles:
+        Apply distinct styles to the <h1> tags within elements with the class .content to clearly differentiate them from other headers.
+
+    CSS Specificity and Cascade:
+        Experiment with adding potentially conflicting styles to test CSS specificity and observe which rules dominate based on specificity and order in your CSS file.
+
+    Visual Inspection:
+        Open your practice.html in a web browser to visually inspect the effects of your CSS rules. Make any necessary adjustments to fine-tune the appearance.
+
+Extra Challenges
+
+    Enhance Visual Design:
+        Introduce more complex styles such as borders, shadows, and various font styles to improve the aesthetic appeal of your webpage. */
+
+        body {
+            background: lightblue;
+            margin: 0;
+            padding: 0;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 36px;
+            }
+
+        header {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: #333;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        /* The navbar */
+        nav {
+            background-color: grey;
+            padding: 10px;
+            text-align: center;
+        }
+            
+
+        /* Navbar links */
+        nav a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .profile-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px; /* Add spacing from the main body */
+        }
+
+        .profile-image {
+            border-radius: 50%;
+            width: 150px; /* Adjust as needed */
+            height: 150px; /* Adjust as needed */
+            overflow: hidden; /* Hide any overflow (e.g., if the image is not perfectly circular) */
+            margin-right: 20px;
+        }
+        
+        /* Sign-in button */
+        .sign-in-button {
+            margin-top: 20px;
+            background-color: aqua;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        
+                   
+       
+        li a {
+            display: block;
+            color: white;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+                }
+                /* Change the link color to #111 (black) on hover */
+                /* li a:hover {
+                    background-color: #111;
+                } */
+        
+           
+           /* Main feed styles */
+        .main-feed {
+            margin: 10;
+        }
+        .post {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+        .username-input {
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+
+        /* Main side styles */
+        .main-side {
+            width: 30%;
+            margin: 20px;
+        }
+        .static-link {
+            display: block;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .static-link:hover {
+            background-color: green;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            border-top: #333;
+                 }
+
+        span {
+            margin-right: 10px;
+        }
+        .contact-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align:justify;
+                
+        }
+
+        h2 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding-right: 20px;
+
+        }
+
+        .contact-input {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+        }
+        .submit-button {
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ddd;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+            font-size: 24px;
+            overflow-wrap: break-word;
+        }
+        
+        /* Hide slides by default */
+        .mySlides {
+            display: none;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+            background-color: purple;
+            font-size: 24px;
+
+        }
+
+    
